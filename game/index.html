@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gobble Getaway — a turkey escape game</title>
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<main class="stage">
+  <canvas id="game" width="1280" height="720"
+    aria-label="Gobble Getaway: a turkey runs from the farmer across the farmyard, the barn and the kitchen. Jump with Space or a click, hide in haystacks with Down, sprint with Shift."></canvas>
+  <p class="hint">
+    <strong>SPACE / ↑ / CLICK</strong> jump &amp; flap &nbsp;·&nbsp;
+    <strong>↓</strong> hide in a haystack &nbsp;·&nbsp;
+    <strong>SHIFT</strong> sprint &nbsp;·&nbsp;
+    <strong>P</strong> pause &nbsp;·&nbsp; <strong>M</strong> mute
+  </p>
+</main>
+<p id="status" role="status" aria-live="polite"></p>
+<script type="module" src="./src/main.js"></script>
+</body>
+</html>
